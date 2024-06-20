@@ -15,7 +15,8 @@ beforeAll(() => {
     headers: jsonHeader,
     body: {
       email: 'jim@juice-sh.op',
-      password: 'ncc-1701'
+      password: 'ncc-1701', 
+      pwd: 'XXXXX'
     }
   })
     .expect('status', 200)
